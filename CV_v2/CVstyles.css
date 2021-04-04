@@ -1,0 +1,108 @@
+html{
+    font-family: Helvetica;
+    padding: 10px 10px;
+}
+html::-webkit-scrollbar{
+    width:10px;
+  
+}
+hr{
+    display: flex;
+}
+html,body{
+    background: #222222
+}
+p{
+    padding: 10px 10px;
+    color: #515151;
+    font-size: 18px;
+}
+label{
+    color:#515151;
+}
+
+ul{
+    color: #515151;
+    font-size: 18px;
+    list-style:none;
+    
+}
+ul ::before{
+    content: "\25E6";color: red;
+    display: inline-block; wdith: 1em;
+    margin-left: -1em
+}
+.blueList::before{
+    content: "\25E6";color: #0e00ff;
+    display: inline-block; wdith: 1em;
+    margin-left: -1em
+}
+.Heading{
+    color: white;
+}
+html,nav{
+    margin:0;
+    padding:0;
+    
+    scroll-behavior: smooth;
+}
+.menu{
+    max-height: 110px;
+    background: #333333;
+    padding: 20px 0;
+    display: flex;
+   overflow-x: auto;
+}
+.menu::-webkit-scrollbar{
+    width:0;
+}
+.menu div{
+    margin:0;
+    padding: 0;
+    text-align: center;
+}
+.menu div{
+   
+    margin: 0 20px;
+    display: inline;
+    
+}
+.menu div a{
+    display: inline-block;
+    color: white;
+    font-size: 26px;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+.menu div:hover a{
+    background: #2b2b2b;
+}
+section{
+    padding: 10px 10px;
+    min-height: 5vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: white;
+    background: #2b2b2b;
+}
+.stars{
+    font-weight: 900;
+    color: yellow;
+}
+.GitLink{
+    color: #bb0000;
+}
+span{
+    color: white;
+}
+footer{
+    padding: 10px 10px;
+}
